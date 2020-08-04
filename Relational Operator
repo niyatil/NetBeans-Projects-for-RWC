@@ -1,0 +1,16 @@
+/**
+ *
+ * @author Niyati
+ */
+public class Relational_Operator {
+    public static void main(String []args){
+    int a = 3;
+    int b = 4;
+    if (a>b)
+    {System.out.println("three is greater than four");
+    }
+    else{
+    System.out.println("three is not greater than four");
+    }
+    }
+    }
