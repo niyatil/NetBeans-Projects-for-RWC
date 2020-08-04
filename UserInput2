@@ -1,0 +1,23 @@
+/**
+ *
+ * @author Niyati
+ */
+import java.util.Scanner;
+public class UserInput2 {
+public static void main(String []args){
+ Scanner ui = new Scanner(System.in);
+System.out.println("Please enter a decimal number");
+double decimal1 = ui.nextDouble();
+System.out.println("The decimal you have typed is " + decimal1);
+System.out.println("Please enter another decimal number");
+double decimal2 = ui.nextDouble();
+System.out.println("The decimal you have typed is " + decimal2);
+Scanner num = new Scanner(System.in);
+System.out.println("Lastly, please enter a word.");
+String word = num.nextLine();
+System.out.println("You have entered " + word);
+
+
+
+}
+}
