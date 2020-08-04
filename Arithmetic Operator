@@ -1,0 +1,18 @@
+/**
+ *
+ * @author Niyat
+ */
+public class ArithmeticOperator {
+     public static void main(String []args){ 
+     double a = 0.5;
+     double b = 1.5;
+     double sum = a+b;
+     double subtract = b-a;
+     double product = a*b;
+     double quotient = b/a;
+     System.out.println("The sum is " +sum);
+     System.out.println("The answer is " +subtract);
+     System.out.println("The product is " +product);
+     System.out.println("The quotient is " +quotient);
+     }
+}
