@@ -1,0 +1,16 @@
+/**
+ *
+ * @author Niyati
+ */
+public class LogicalOperator {
+public static void main(String []args){
+int a = 1;
+int b = 2;
+int c = 9;
+boolean result;
+ if (a>b) {
+ System.out.println("true");
+ 
+ }
+ else{ System.out.println("false");
+      
