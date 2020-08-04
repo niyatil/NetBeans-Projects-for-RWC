@@ -1,0 +1,13 @@
+/**
+ *
+ * @author Niyati
+ */
+public class Practice {
+    public static void main(String []args){ 
+    
+    String fname = "Niyati";
+    String lname = "Lakkakula";
+    System.out.println("My full name is " + fname + " " + lname);
+    }
+    
+}
