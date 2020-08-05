@@ -1,0 +1,24 @@
+/**
+ *
+ * @author Niyati
+ */
+import java.util.Scanner;
+public class Populate {
+   public static void main(String []args){ 
+   int a;
+   int b = 0;
+   Scanner input = new Scanner(System.in);
+   System.out.println("What is the number of elements you want in your array?");
+   a = input.nextInt(); 
+   int their_array[] = new int[a];
+   System.out.println("Enter your elements:");
+   for(int i = 0; i<a; i++){
+   their_array[i]=input.nextInt();
+   b = b + their_array[i];
+   
+   }
+   System.out.println("Sum: " +b);
+           
+   }
+    
+}
